@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>User Registration Form</h1>
+    <form>     
+        <label for="Firstname">First Name::</label>
+
+            <input type="text" name="name"  size="19" maxlength="30"><br><br>
+    
+        <label for="lastname">lastname::</label>
+            <input type="text" name="name" size="19" maxlength="30" >
+        
+        <p>Bio::
+            
+            <textarea name="bio" cols="30" rows="5"></textarea>
+        </p>
+              
+
+    <p>Gender:<br>
+        <input type="radio" name="genre" value="Male" checked="checked" > Male<br>
+        <input type="radio" name="genre" value="Female"  > Female<br>
+        <input type="radio" name="genre" value="other"  > other<br>
+    </p>
+    <p>
+        Interest:<br>
+        <input type="checkbox" name="intrest" value="Music" checked="checked"> Music<br>
+        <input type="checkbox" name="intrest" value="Sport" > Sport<br>
+        <input type="checkbox" name="intrest" value="Reading"> Reading
+        
+    </p>
+    <p>Country:
+
+        <select name="devices">
+
+            <option value="UnitedState">United State</option>
+            
+        </select>
+    </p>
+    <p>Preferred Colors:
+        <select name="instrument" size="3" multiple="multiple">
+            <option value="Red" checked="checked">Red</option>
+            <option value="Blue">Blue</option>
+            <option value="Yellow">Yellow</option>
+            <option value="Green">Green</option>
+
+        </select>
+    </p>
+      <p>Profile Picture::
+        <input type="file">
+
+      </p>
+      <p>Birthdate::
+        <input type="date">
+
+      </p>
+      <label for="email">Enter your email:</label>
+<input type="email"  name="email"><br><br>
+
+<label for="Website">Website</label>
+<input type="text"  name="name"><br><br>
+
+<label for="search">Search</label>
+<input type="search"  name="q" />
+        
+    </form>
+
+    
+</body>
+</html>
